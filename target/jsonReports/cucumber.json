@@ -1,0 +1,333 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 994100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "this will execute before each scenario as this is a common case that run before each scenario",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.backgroundCase()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T12:05:48.297Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3349986500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Case 1 validate if google search is working",
+        "description": "",
+        "id": "feature-to-test-goodle-search-operation;case-1-validate-if-google-search-is-working",
+        "after": [
+          {
+            "result": {
+              "duration": 919107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1885104300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user if on google page",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_if_on_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201474000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters text for search",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_enters_text_for_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7137427100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user press enter button",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46882000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "this will execute before each scenario as this is a common case that run before each scenario",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.backgroundCase()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T12:06:01.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2050611500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Case 2 validate if google search is working",
+        "description": "",
+        "id": "feature-to-test-goodle-search-operation;case-2-validate-if-google-search-is-working",
+        "after": [
+          {
+            "result": {
+              "duration": 848890700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1530757400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user if on google page",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_if_on_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100200200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters text for search",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_enters_text_for_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7043382200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user press enter button",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32876000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "this will execute before each scenario as this is a common case that run before each scenario",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.backgroundCase()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T12:06:13.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2084636400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Case 3 validate if google search is working",
+        "description": "",
+        "id": "feature-to-test-goodle-search-operation;case-3-validate-if-google-search-is-working",
+        "after": [
+          {
+            "result": {
+              "duration": 1180491500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1594359500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user if on google page",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_if_on_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184722500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters text for search",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_enters_text_for_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9149066700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user press enter button",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28923600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "StepDefinations.GoogleSearchSteps.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test goodle search operation",
+    "description": "",
+    "id": "feature-to-test-goodle-search-operation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  }
+]
